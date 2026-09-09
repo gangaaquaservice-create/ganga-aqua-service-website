@@ -90,3 +90,7 @@ footer strong{font-size:20px;display:block}footer small{display:block;margin-top
 @media (min-width:700px){.gallery{grid-template-columns:repeat(3,minmax(0,1fr))}.gallery-item img{height:270px}}
 @media (max-width:520px){.gallery{grid-template-columns:1fr}.gallery-item img{height:290px}.gallery-item .gallery-label{min-height:44px}}
 .gallery-item b{min-height:46px;display:flex;align-items:center;justify-content:center;text-align:center;padding:10px 8px;color:#0757a0;background:#f3fbff}
+
+/* Final product-image clarity pass */
+.gallery-item img.cold-shot{object-fit:contain;object-position:center;transform:scale(1.12);transform-origin:center;}
+@media (max-width:520px){.gallery-item img.cold-shot{transform:scale(1.08);}}
