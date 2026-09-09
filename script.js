@@ -9,7 +9,7 @@ const products = [
  {id:"kharata", title:"Kharata", sub:"Floor Brooms", img:IMG.kharata_img, gallery:[["Long twig broom",IMG.kharata_img],["Handled broom",IMG.kharata_img],["Floor broom styles",IMG.kharata_img]]},
  {id:"mops", title:"Mops", sub:"Cleaning", img:IMG.mops_img, gallery:[["Cotton mop",IMG.mops_img],["Floor-cleaning mop",IMG.mops_img]]},
  {id:"wipers", title:"Wipers", sub:"Floor & Glass", img:IMG.wipers_img, gallery:[["Floor wiper",IMG.wipers_img],["Glass/floor wiper",IMG.wipers_img]]},
- {id:"sweets", title:"Sweets & Traditional Snacks", sub:"Laddu, Chikki and Barfi", img:IMG.sweets_img, gallery:[["Laddu",IMG.sweets_img],["Chikki",IMG.sweets_img],["Barfi",IMG.sweets_img]]},
+ {id:"spare", title:"Spare Parts", sub:"Quality parts & accessories", img:SPARE_IMG, gallery:[["Spare parts",SPARE_IMG],["Metal components",SPARE_IMG],["Parts & accessories",SPARE_IMG]]},
  {id:"dishes", title:"Use & Throw Dishes", sub:"Plates • bowls • glasses • tea cups", img:IMG.dishes_img, gallery:[["Plates & bowls",IMG.dishes_img],["Glasses",IMG.dishes_img],["Tea cups",IMG.dishes_img]]}
 ];
 
